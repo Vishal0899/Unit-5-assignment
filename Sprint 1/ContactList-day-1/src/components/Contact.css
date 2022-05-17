@@ -1,0 +1,33 @@
+.Main {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.INE {
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid grey; */
+  display: flex;
+  gap: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+.Img {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.CMain {
+  display: flex;
+  height: 15px;
+  padding: 5px 0 10px 10px;
+  gap: 10px;
+  border-top: 1px solid rgb(196, 190, 190);
+}
+.CNT {
+  margin: 0 0 0 5px;
+  text-align: left;
+  font-size: smaller;
+}
