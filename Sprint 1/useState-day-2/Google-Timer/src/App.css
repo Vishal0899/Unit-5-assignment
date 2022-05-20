@@ -1,0 +1,45 @@
+.heading{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  /* border: 0.5px solid gray; */
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background-color: aliceblue;
+  border-radius:5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-box{
+  width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.button-box button{
+  font-size: 1.2rem;
+ padding: 0.6rem;
+ width: 30%;
+  color:white;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-box button:hover{
+  background-color: rgb(80, 83, 83);
+}
