@@ -19,7 +19,7 @@ export const Login = () => {
         onChange={(e) => setPass(e.target.value)}
       />
       <button
-        onClick={() => {
+        onClick={() => 
           setDetails({
             email: email,
             password: pass,
